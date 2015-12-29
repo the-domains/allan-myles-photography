@@ -1,6 +1,6 @@
 name: Allan Myles Photography
 favicon: null
-layout_spectrum: 0.75057
+layout_spectrum: 1
 typography_spectrum: 0.23986
 cta:
   domain: null
@@ -22,7 +22,7 @@ color:
     - '#a79c91'
     - '#797f83'
   brandStrength: 1
-  lightness: 0.5
+  lightness: 1
   saturation: 1
-  rhythmicContrast: 0
+  rhythmicContrast: 1
 purpose: []
