@@ -1,28 +1,39 @@
-name: Allan Myles Photography
-favicon: null
-layout_spectrum: 0.5023
-typography_spectrum: 1
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#0a1521'
-    - '#dec3a9'
-    - '#54636e'
-    - '#a79c91'
-    - '#797f83'
-  brandStrength: 0
-  lightness: 0.5
-  saturation: 1
-  rhythmicContrast: 0
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0
+  brandStrength: 0.4892473
+  lightness: 0.5
+  brandColors:
+    - '#CFBEA4'
+    - '#131D29'
+    - '#A39B91'
+    - '#F8DAD2'
+  rhythmicContrast: 0
+typography_spectrum: 0.5322581
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.5023
+favicon: null
+name: Allan Myles Photography
